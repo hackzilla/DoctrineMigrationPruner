@@ -10,7 +10,7 @@
         "doctrine/doctrine-bundle": "^2.11",
         "doctrine/doctrine-migrations-bundle": "^3.2",
         "doctrine/orm": "^2.16",
-        "hackzilla/doctrine-migration-pruner-bundle": "^0.2.0",
+        "hackzilla/doctrine-migration-pruner-bundle": "~0.3",
         "symfony/console": "6.3.*",
         "symfony/dotenv": "6.3.*",
         "symfony/flex": "^2",
@@ -19,6 +19,9 @@
         "symfony/yaml": "6.3.*"
     },
     "config": {
+        "preferred-install": {
+            "hackzilla/doctrine-migration-pruner-bundle": "source"
+        },
         "allow-plugins": {
             "php-http/discovery": true,
             "symfony/flex": true,
